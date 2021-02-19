@@ -1,18 +1,9 @@
-/* body {
-  background-color: black;
-} */
 body {
   margin: 0 auto;
 }
 
-/* header {
-  background-color: #5ed1c6;
-} */
-
 h1, h2, h3 {
-  /* font-family: arial; */
   font-family: 'Rubik', sans-serif;
-  /* font-style: italic; */
 }
 
 h1 {
@@ -37,18 +28,12 @@ a {
   margin: auto;
 }
 
-/* nav button:hover {
- background-color: white;
-} */
 
 a:hover {
- /* color: #e33654; */
  opacity: 0.6;
- /* text-decoration: underline; */
 }
 
 nav {
-  /* background-color: #32b37f; */
   position: fixed;
   top: 0;
   z-index: 1;
@@ -60,7 +45,6 @@ nav {
 }
 
 nav.scrollMenu {
-  /* background-color: #333; */
   overflow: auto;
   white-space: nowrap;
 }
@@ -135,10 +119,7 @@ iframe {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: flex-end; */
   padding-top: 10px;
-  /* margin: 0;
-  padding: 0; */
 }
 
 .moreInfo {
@@ -149,8 +130,6 @@ iframe {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  /* padding: 0; */
-  /* margin: 0; */
 }
 
 .moreInfo.iframeContainer {
@@ -165,27 +144,21 @@ iframe {
 }
 
 .moreInfo > .title {
-  /* padding: 0;
-  margin: 0; */
   display: flex;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 50px;
   background-color: #41a39a;
   color: white;
-  /* background-color: LightGray; */
   width: 100%;
-  /* margin: auto; */
 }
 
 .moreInfo > .title h3 {
   padding-left: 5px;
-  /* line-height: 50px; */
 }
 
 .moreInfo > .body {
   height: 350px;
-  /* background-color: #e8fffd; */
   background-color: #e4f5f3;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -215,7 +188,6 @@ iframe {
 }
 
 #demo {
-  /* background-color: #41a39a; */
   background-color: #36857d;
 }
 

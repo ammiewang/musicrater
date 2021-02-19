@@ -13,7 +13,6 @@ a {
 
 #song {
   /* margin: 100px; */
-  width: 70%;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -27,13 +26,12 @@ a {
 }
 
 #song.rate {
+  width: 70%;
   background-color: #4d4d4d;
 }
 
 #song.review {
-  /* background-color: #adadad; */
-  /* background-color: #c2c2c2; */
-  /* background-color: #dbcfbf; */
+  width: 80%;
   background-color: black;
 }
 

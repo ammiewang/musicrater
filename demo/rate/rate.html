@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Rate</title>
+    <link rel='stylesheet' href='../../site.css'>
+    <link rel='stylesheet' href='../demo.css'>
+    <link rel='stylesheet' href='rate.css'>
+    <link rel='preconnect' href='https://fonts.gstatic.com'>
+    <link href='https://fonts.googleapis.com/css2?family=Rubik&display=swap' rel='stylesheet'>
+    <script src='../demo.js'></script>
+  </head>
+  <body>
+    <div class='textWrapper container'>
+      <h1>RATE THIS SONG</h1>
+      <div id='song' class='rate'>
+        <img
+          id='vinyl'
+          src='images/vinyl.png'
+          alt='vinyl player playing record'
+        >
+        <div id='details'>
+          <div id='songTitle'>
+            <h2>Song</h2>
+          </div>
+          <div id='album'>
+            <h3>Album</h3>
+          </div>
+          <div id='artist'>
+            <h3>Artist</h3>
+          </div>
+        </div>
+      </div>
+        <!-- stars -->
+      <div>
+        <!-- <div id='star1' class='starOutline'>hi</div> -->
+        <!-- <div
+          id='star1'
+          class='starOutline'
+          onmouseover=''
+        ></div> -->
+        <div class='starContainer'>
+          <img
+            id='star1'
+            class='starOutline'
+            src='images/starOutline.png'
+            alt='yellow outline of star'
+            onmouseover='changeStar(1, true)'
+          >
+          <img
+            id='star1f'
+            class='starFilled'
+            src='images/starFilled.png'
+            alt='filled yellow star'
+            onmouseout='changeStar(1, false)'
+            onclick='setStar(true)'
+          >
+        </div>
+        <div class='starContainer'>
+          <img
+            id='star2'
+            class='starOutline'
+            src='images/starOutline.png'
+            alt='yellow outline of star'
+            onmouseover='changeStar(2, true)'
+          >
+          <img
+            id='star2f'
+            class='starFilled'
+            src='images/starFilled.png'
+            alt='filled yellow star'
+            onmouseout='changeStar(2, false)'
+            onclick='setStar(true)'
+          >
+        </div>
+        <div class='starContainer'>
+          <img
+            id='star3'
+            class='starOutline'
+            src='images/starOutline.png'
+            alt='yellow outline of star'
+            onmouseover='changeStar(3, true)'
+          >
+          <img
+            id='star3f'
+            class='starFilled'
+            src='images/starFilled.png'
+            alt='filled yellow star'
+            onmouseout='changeStar(3, false)'
+            onclick='setStar(true)'
+          >
+        </div>
+        <div class='starContainer'>
+          <img
+            id='star4'
+            class='starOutline'
+            src='images/starOutline.png'
+            alt='yellow outline of star'
+            onmouseover='changeStar(4, true)'
+          >
+          <img
+            id='star4f'
+            class='starFilled'
+            src='images/starFilled.png'
+            alt='filled yellow star'
+            onmouseout='changeStar(4, false)'
+            onclick='setStar(true)'
+          >
+        </div>
+        <div class='starContainer'>
+          <img
+            id='star5'
+            class='starOutline'
+            src='images/starOutline.png'
+            alt='yellow outline of star'
+            onmouseover='changeStar(5, true)'
+          >
+          <img
+            id='star5f'
+            class='starFilled'
+            src='images/starFilled.png'
+            alt='filled yellow star'
+            onmouseout='changeStar(5, false)'
+            onclick='setStar(true)'
+          >
+        </div>
+      </div>
+      <div class='smallContainer' id='ratingButtonContainer'>
+        <button id='changeRating' onClick='setStar(false)'>Change My Rating</button>
+      </div>
+      <div class='smallContainer'>
+        <textarea></textarea>
+      </div>
+      <div class='smallContainer'>
+        <button id='enter' onclick='reviewSubmitted()'>Enter My Review</button>
+      </div>
+      <div class='smallContainer' id='thanksMessageContainer'>
+        <span>Thanks for your review!</span>
+      </div>
+      <div class='smallContainer'>
+        <a href='/demo/reviews'>See what others think!<a>
+      </div>
+    </div>
+  </body>
+</html>

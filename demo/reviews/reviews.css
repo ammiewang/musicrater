@@ -1,0 +1,51 @@
+body {
+  background-color: #f2ef80;
+  font-family: 'Rubik', sans-serif;
+}
+
+h2, h3, h4 {
+  color: #f2ef80;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  /* border-spacing: 10px 10px; */
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+thead {
+  border-bottom: 2px solid black;
+  font-size: 20px;
+}
+
+th {
+  padding-left: 10px;
+}
+
+tr.row td {
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+tr.row td > div{
+  max-height: 100px;
+  overflow: auto;
+}
+
+tr.row td > .user {
+  max-width: 100px;
+  word-wrap: break-word;
+}

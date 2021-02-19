@@ -1,0 +1,56 @@
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.smallContainer {
+  padding-top: 30px;
+}
+
+#song {
+  /* margin: 100px; */
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* height: 50px; */
+}
+
+#song.rate {
+  background-color: #4d4d4d;
+}
+
+#song.review {
+  /* background-color: #adadad; */
+  /* background-color: #c2c2c2; */
+  /* background-color: #dbcfbf; */
+  background-color: black;
+}
+
+#vinyl {
+  padding-left: 20px;
+  align-self: center;
+  /* display: inline; */
+}
+
+#details {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#album {
+  font-size: 20px;
+}

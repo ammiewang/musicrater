@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, a {
+  color: #f2ef80;
+}
+
+textarea {
+  border-radius: 20px;
+  width: 70%;
+  border: none;
+  font-family: arial;
+  height: 200px;
+  word-wrap: break-word;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: #f2ef80;
+  font-family: 'Rubik', sans-serif;
+}
+
+.starContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.starFilled {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.starFilled:not(:hover) {
+  display: none;
+}
+
+#ratingButtonContainer {
+  display: none;
+}
+
+#thanksMessageContainer {
+  font-family: 'Rubik', sans-serif;
+  color: #f2ef80;
+  display: none;
+}

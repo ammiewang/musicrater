@@ -33,7 +33,7 @@
         </div>
       </div>
       <div id='starMessageContainer' class='container writing'>
-        <div id='reviewHeader'>
+        <div class='reviewHeader'>
           <h3>Pick a Rating</h3>
         </div>
         <span>Click a star to set your rating on desktop.
@@ -132,12 +132,12 @@
       </div>
 
       <div class='smallContainer'>
-        <label for='review'>
-          <div id='reviewHeader' class='container writing'>
-            <h3>Write Your Review Below</h3>
-          </div>
-        </label>
-        <textarea type='text' name='review' id='review'></textarea>
+        <!-- <label for='review'> -->
+        <div class='container writing reviewHeader'>
+          <h3>Write Your Review Below</h3>
+        </div>
+        <!-- </label> -->
+        <textarea type='text' name='review' id='review' aria-label='Write Your Review Below'></textarea>
 
       </div>
       <div class='smallContainer'>
@@ -147,8 +147,8 @@
         <span>Thanks for your review!</span>
       </div>
       <div class='smallContainer'>
-        <label for='reviewsPage' aria-label="Reviews Page"></label>
-        <a href='/musicrater/demo/reviews' name='reviewsPage' id='reviewsPage'>See what others think!</a>
+        <!-- <label for='reviewsPage' aria-label="Reviews Page"></label> -->
+        <a href='/musicrater/demo/reviews' name='reviewsPage' id='reviewsPage' aria-label="Reviews Page">See what others think!</a>
       </div>
     </div>
   </body>

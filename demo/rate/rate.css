@@ -54,6 +54,11 @@ span {
   display: none;
 }
 
+.reviewHeader {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 #starMessageContainer {
   font-size: 14px;
   padding-top: 20px;
@@ -66,9 +71,4 @@ span {
 
 #ratingButtonContainer {
   padding-bottom: 20px;
-}
-
-#reviewHeader {
-  padding-top: 0px;
-  padding-bottom: 10px;
 }

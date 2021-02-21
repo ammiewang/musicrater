@@ -22,6 +22,11 @@ button {
   font-family: 'Rubik', sans-serif;
 }
 
+span {
+  font-family: 'Rubik', sans-serif;
+  color: #f2ef80;
+}
+
 .starContainer {
   position: relative;
   display: inline-block;
@@ -39,12 +44,12 @@ button {
   display: none;
 }
 
-#ratingButtonContainer {
-  display: none;
+#starMessageContainer {
+  font-size: 14px;
+  /* padding-bottom: 20px; */
+  padding-bottom: 0px;
 }
 
-#thanksMessageContainer {
-  font-family: 'Rubik', sans-serif;
-  color: #f2ef80;
+#ratingButtonContainer, #thanksMessageContainer {
   display: none;
 }

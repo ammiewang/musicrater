@@ -32,6 +32,13 @@
           </div>
         </div>
       </div>
+      <div id='starMessageContainer' class='container writing'>
+        <div id='reviewHeader'>
+          <h3>Pick a Rating</h3>
+        </div>
+        <span>Click a star to set your rating on desktop.
+          Double tap a star to set your rating on mobile.</span>
+      </div>
       <div>
         <div class='starContainer'>
           <img
@@ -119,14 +126,19 @@
           >
         </div>
       </div>
-      <div class='smallContainer' id='ratingButtonContainer'>
+
+      <div id='ratingButtonContainer'>
         <button id='changeRating' onClick='setStar(false)'>Change My Rating</button>
       </div>
-      <div id='starMessageContainer' class='container writing smallContainer'>
-        <span>Click a star to set your rating on desktop. Double tap a star to set your rating on mobile.</span>
-      </div>
+
       <div class='smallContainer'>
-        <textarea></textarea>
+        <label for='review'>
+          <div id='reviewHeader' class='container writing'>
+            <h3>Write Your Review Below</h3>
+          </div>
+        </label>
+        <textarea type='text' name='review' id='review'></textarea>
+
       </div>
       <div class='smallContainer'>
         <button id='enter' onclick='reviewSubmitted()'>Enter My Review</button>
@@ -135,7 +147,8 @@
         <span>Thanks for your review!</span>
       </div>
       <div class='smallContainer'>
-        <a href='/musicrater/demo/reviews'>See what others think!<a>
+        <label for='reviewsPage' aria-label="Reviews Page"></label>
+        <a href='/musicrater/demo/reviews' name='reviewsPage' id='reviewsPage'>See what others think!</a>
       </div>
     </div>
   </body>

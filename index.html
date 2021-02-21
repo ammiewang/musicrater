@@ -14,8 +14,6 @@
       <button><a href='#about'>ABOUT</a></button>
       <button><a href='#demo'>DEMO</a></button>
       <button class='last'><a href='#prices'>PRICES</a></button>
-      <!-- <button class='last'><a href='#prices'>PRICES</a></button>
-      <button class='last'><a href='#prices'>PRICES</a></button> -->
     </nav>
     <header id='home'>
       <div class='container'>
@@ -119,30 +117,45 @@
       </div>
     </section>
     <section id='demo'>
-      <div class='container writing'>
+      <div class='container writing' id='demoDescription'>
         <div class='textWrapper'>
           <h2>Demo</h2>
         </div>
-        <div class='moreContainer'>
-          <div class='moreInfo iframeContainer'>
-            <iframe src='demo/rate/index.html'></iframe>
-            <div class='link'><a href='/musicrater/demo/rate'>Check It Out ➡</a></div>
-          </div>
-          <div class='moreInfo iframeContainer'>
-            <iframe src='demo/reviews/index.html'></iframe>
-            <div class='link'><a href='/musicrater/demo/reviews'>Check It Out ➡</a></div>
+        <p>Take a look at what it's like to read and write song reviews on our app. Check out
+        the first link to preview how our users rate tracks, and go to the second link to
+        see what published reviews look like!</p>
+      </div>
+      <div class='moreContainer'>
+        <div class='moreInfo iframeContainer'>
+          <iframe src='demo/rate/index.html' title='a demo of the page a user would go to to rate a certain song'></iframe>
+          <div class='link'>
+            <label for='ratingPage' aria-label="Rating Page"></label>
+            <a href='/musicrater/demo/rate' id='ratingPage' name='ratingPage'>Check It Out ➡</a>
           </div>
         </div>
+        <div class='moreInfo iframeContainer'>
+          <iframe src='demo/reviews/index.html' title='a demo of the page a user would go to to read reviews for a certain song'></iframe>
+          <div class='link'>
+            <label for='reviewsPage' aria-label="Reviews Page"></label>
+            <a href='/musicrater/demo/reviews' id='reviewsPage' name='reviewsPage'>Check It Out ➡</a>
+          </div>
+        </div>
+      </div>
+      <div class='container writing footerBox'>
         <p class='disclaimer'>These are static pages which represent what the app's
         UI might look like. They are not connected to any backend and any submitted reviews
         will not be saved.</p>
       </div>
     </section>
     <section id='prices'>
-      <div class='container writing'>
+      <div class='container writing' id='priceHeader'>
         <div class='textWrapper'>
           <h2>Prices</h2>
         </div>
+        <p>Our pricing follows a 3-tier system, ranging from Free to Premium to Deluxe.
+        Each successive tier grants more access to our application's various features.
+        We've described each tier in more detail below to help you decide which one
+        is the best for you!</p>
       </div>
       <div class='moreContainer prices'>
         <div class='circleContainer'>
@@ -153,8 +166,8 @@
             </div>
             <ul class='description'>
               <li>Rate up to 50 songs a month</li>
-              <li>Read unlimited reviews (with ads)</li>
-              <li>Add up to 100 other users on the app, see common song &
+              <li>Read unlimited reviews with ads</li>
+              <li>Add up to 100 other users, see common song &
                 artist interests for 20 of the users added</li>
               <li>New music recommendations monthly</li>
             </ul>
@@ -169,7 +182,7 @@
             <ul class='description'>
               <li>Rate up to 500 songs a month</li>
               <li>Read unlimited reviews without ads</li>
-              <li>Add up to 500 other users on the app, see common song &
+              <li>Add up to 500 other users, see common song &
                 artist interests for 100 of the users added</li>
               <li>New music recommendations weekly</li>
             </ul>

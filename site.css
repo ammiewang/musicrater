@@ -14,10 +14,6 @@ h2 {
   font-size: 36px;
 }
 
-/* p {
-  color: black;
-} */
-
 a {
   /* font-family: arial; */
   font-family: 'Rubik', sans-serif;
@@ -37,7 +33,8 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1;
-  background-color: #41a39a;
+  background-color: #27837B;
+  /* background-color: #41a39a; */
   height: 50px;
   display: inline-block;
   width: 100%;
@@ -74,6 +71,10 @@ iframe {
   text-align: center;
 }
 
+/* .link a {
+  text-decoration: underline;
+} */
+
 .subtitle {
   font-style: italic;
 }
@@ -107,10 +108,6 @@ iframe {
   margin: auto;
 }
 
-/* .inline {
-  display: inline;
-} */
-
 .bolded {
   font-weight: bold;
 }
@@ -135,12 +132,13 @@ iframe {
 }
 
 .moreInfo.iframeContainer {
-  /* width: 400px; */
-  width: min(400px, 110%);
+  width: 400px;
+  /* width: min(400px, 110%); */
   height: 300px;
 }
 
 .moreInfo.about {
+  background-color: #e4f5f3;
   width: 300px;
   min-height: 400px;
   box-shadow: 5px 5px 5px gray;
@@ -161,14 +159,18 @@ iframe {
 }
 
 .moreInfo > .body {
-  min-height: 350px;
-  background-color: #e4f5f3;
+  /* flex: 1;
+  background-color: #e4f5f3; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   word-wrap: break-word;
 }
 
-.moreInfo > * > * > p, .disclaimer {
+.moreInfo > * > * > p {
+  font-size: 14px;
+}
+
+.disclaimer {
   /* word-wrap: break-word; */
   /* overflow: auto; */
   font-size: 12px;
@@ -181,7 +183,6 @@ iframe {
 
 .circle {
   width: 100%;
-  /* width: min(300px, 100%); */
   min-height: 300px;
   display: flex;
   flex-direction: column;
@@ -193,8 +194,10 @@ iframe {
 }
 
 ul.description {
-  font-size: 12px;
+  font-size: 14px;
+  /* width: 80%; */
   width: 70%;
+  line-height: 14px;
 }
 
 .planType {
@@ -208,12 +211,20 @@ ul.description {
   text-align: center;
 }
 
+/* .titleBox > p {
+  margin: auto;
+} */
+
+.footerBox {
+  padding-top: 0px;
+}
+
 #home {
   background-color: #5ed1c6;
 }
 
 #home p, #home h1 {
-  color: white;
+  /* color: white; */
   word-wrap: break-word;
   width: 100%
 }
@@ -223,16 +234,31 @@ ul.description {
   padding-bottom: 0px;
 }
 
-#wave {
-  filter: invert(1);
+#demoDescription {
+  padding-top: 50px;
+  padding-bottom: 0px;
 }
+
+/* #wave {
+  filter: invert(1);
+} */
 
 #demo {
-  background-color: #36857d;
+  background-color: #27837B;
+  /* background-color: #36857d; */
 }
 
-#demo h2, #demo .disclaimer {
+#demo h2, #demo .disclaimer, #demo p {
   color: white;
+}
+
+#demo p {
+  width: min(850px, 100%);
+  margin: auto;
+}
+
+#demo .disclaimer {
+  padding-top: 10px;
 }
 
 #prices {
@@ -240,8 +266,23 @@ ul.description {
   padding-bottom: 100px;
 }
 
-/* #circleContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
+#priceHeader {
+  padding-bottom: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}

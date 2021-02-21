@@ -29,6 +29,10 @@ a:hover {
  opacity: 0.6;
 }
 
+#mainLink:focus {
+  background-color: #1c5c56;
+}
+
 nav {
   position: fixed;
   top: 0;

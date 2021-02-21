@@ -215,6 +215,10 @@ ul.description {
   margin: auto;
 } */
 
+.hiddenLabel {
+  display: none;
+}
+
 .footerBox {
   padding-top: 0px;
 }

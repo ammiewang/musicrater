@@ -9,13 +9,13 @@
     <link href='https://fonts.googleapis.com/css2?family=Rubik&display=swap' rel='stylesheet'>
   </head>
   <body>
-    <nav class='scrollMenu'>
+    <nav class='scrollMenu' role='navigation'>
       <button><a href='#home'>HOME</a></button>
       <button><a href='#about'>ABOUT</a></button>
       <button><a href='#demo'>DEMO</a></button>
       <button class='last'><a href='#prices'>PRICES</a></button>
     </nav>
-    <header id='home'>
+    <header id='home' role='main'>
       <div class='container'>
         <div class='textWrapper'>
           <div id='titleBox'>
@@ -32,7 +32,7 @@
         </div>
       </div>
     </header>
-    <section id='about'>
+    <section id='about' role='complementary'>
       <div class='container writing'>
         <div class='textWrapper'>
           <h2>About Us</h2>
@@ -116,7 +116,7 @@
           but this landing page was created as a homework exercise.</p>
       </div>
     </section>
-    <section id='demo'>
+    <section id='demo' role='complementary'>
       <div class='container writing' id='demoDescription'>
         <div class='textWrapper'>
           <h2>Demo</h2>
@@ -129,15 +129,15 @@
         <div class='moreInfo iframeContainer'>
           <iframe src='demo/rate/index.html' title='a demo of the page a user would go to to rate a certain song'></iframe>
           <div class='link'>
-            <label for='ratingPage' aria-label='Rating Page' class='hiddenLabel'>Rating Page</label>
-            <a href='/musicrater/demo/rate' id='ratingPage' name='ratingPage'>Check It Out ➡</a>
+            <!-- <label for='ratingPage' aria-label='Rating Page' class='hiddenLabel'>Rating Page</label> -->
+            <a href='/musicrater/demo/rate' id='ratingPage' name='ratingPage' aria-label='Rating Page'>Rate Songs ➡</a>
           </div>
         </div>
         <div class='moreInfo iframeContainer'>
           <iframe src='demo/reviews/index.html' title='a demo of the page a user would go to to read reviews for a certain song'></iframe>
           <div class='link'>
-            <label for='reviewsPage' aria-label='Reviews Page' class='hiddenLabel'>Reviews Page</label>
-            <a href='/musicrater/demo/reviews' id='reviewsPage' name='reviewsPage'>Check It Out ➡</a>
+            <!-- <label for='reviewsPage' aria-label='Reviews Page' class='hiddenLabel'>Reviews Page</label> -->
+            <a href='/musicrater/demo/reviews' id='reviewsPage' name='reviewsPage' aria-label='Reviews Page'>Read Reviews ➡</a>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@
         will not be saved.</p>
       </div>
     </section>
-    <section id='prices'>
+    <section id='prices' role='complementary'>
       <div class='container writing' id='priceHeader'>
         <div class='textWrapper'>
           <h2>Prices</h2>

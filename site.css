@@ -29,15 +29,16 @@ a:hover {
  opacity: 0.6;
 }
 
-#mainLink:focus {
+/* #mainLink:focus {
   background-color: #1c5c56;
-}
+} */
 
 nav {
   position: fixed;
   top: 0;
   z-index: 1;
-  background-color: #27837B;
+  background-color: #1c5c56;
+  /* background-color: #27837B; */
   /* background-color: #41a39a; */
   height: 50px;
   display: inline-block;
@@ -253,7 +254,8 @@ ul.description {
 } */
 
 #demo {
-  background-color: #27837B;
+  background-color: #1c5c56;
+  /* background-color: #27837B; */
   /* background-color: #36857d; */
 }
 

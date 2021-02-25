@@ -281,7 +281,8 @@ ul.description {
   padding-bottom: 0;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
+  -webkit-overflow-scrolling: auto;
   width: 10px;
   height: 10px;
 }
@@ -296,4 +297,4 @@ ul.description {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #444;
-} */
+}

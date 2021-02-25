@@ -65,7 +65,8 @@ nav button {
 iframe {
   height: 100%;
   border-radius: 10px;
-  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  --webkit-overflow-scrolling: touch;
 }
 
 .last {

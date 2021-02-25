@@ -84,7 +84,7 @@ iframe {
   font-style: italic;
 }
 
-.imgWrapper {
+.imgWrapper.title {
   overflow: hidden;
 }
 
@@ -282,7 +282,6 @@ ul.description {
 }
 
 ::-webkit-scrollbar {
-  -webkit-overflow-scrolling: auto;
   width: 10px;
   height: 10px;
 }

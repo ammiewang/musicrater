@@ -9,63 +9,64 @@
     <link rel='stylesheet' href='../demo.css'>
     <link rel='preconnect' href='https://fonts.gstatic.com'>
     <link href='https://fonts.googleapis.com/css2?family=Rubik&display=swap' rel='stylesheet'>
-    <script src='demo.js'></script>
   </head>
   <body>
-    <div class='textWrapper container'>
-      <h1>REVIEWS FOR THIS SONG</h1>
-      <div id='song' class='review'>
-        <img
-          id='cassette'
-          src='images/cassette.png'
-          alt='cassette tape that says high quality audio'
-        >
-        <div id='details'>
-          <div id='songTitle'>
-            <h2>Song</h2>
-          </div>
-          <div id='album'>
-            <h3>Album</h3>
-          </div>
-          <div id='artist'>
-            <h3>Artist</h3>
+    <div id='reviews-content'>
+      <div class='textWrapper container'>
+        <h1><a href='#reviews-content' name='reviewsPage' id='reviewsPage' aria-label="Reviews Page" tabIndex='1'>REVIEWS FOR THIS SONG</a></h1>
+        <div id='song' class='review'>
+          <img
+            id='cassette'
+            src='images/cassette.png'
+            alt='cassette tape that says high quality audio'
+          >
+          <div id='details'>
+            <div id='songTitle'>
+              <h2>Song</h2>
+            </div>
+            <div id='album'>
+              <h3>Album</h3>
+            </div>
+            <div id='artist'>
+              <h3>Artist</h3>
+            </div>
           </div>
         </div>
-      </div>
-      <div class='container writing'>
-        <table>
-          <thead>
-            <th>User</th>
-            <th>Date</th>
-            <th>Rating</th>
-            <th>Review</th>
-          </thead>
-          <tbody>
-            <tr class='row'>
-              <td><div class='user'>foobar</div></td>
-              <td>12/12/20</td>
-              <td>5/5</td>
-              <td><div>Could listen on repeat for days! Good tune, good lyrics, good tempo.
-              A better song has never existed ever; in fact, people should probably
-              stop writing music now because this will never be topped.</div></td>
-            </tr>
-            <tr class='row'>
-              <td><div class='user'>fizzbuzz</div></td>
-              <td>12/11/20</td>
-              <td>3/5</td>
-              <td><div>It was okay.</div></td>
-            </tr>
-            <tr class='row'>
-              <td><div class='user'>madeupword</div></td>
-              <td>12/10/20</td>
-              <td>1/5</td>
-              <td><div>Would rather listen to nails on a chalkboard than ever go through that again.</div></td>
-            </tr>
-          </tbody>
-        </table>
-        <div class='smallContainer'>
-          <!-- <label for='ratingPage' aria-label="Rating Page"></label> -->
-          <a href='/musicrater/demo/rate' id='ratingPage' name='ratingPage' aria-label='Rating Page'>Tell us what you think!</a>
+        <div class='container writing'>
+          <table>
+            <thead>
+              <th>User</th>
+              <th>Date</th>
+              <th>Rating</th>
+              <th>Review</th>
+            </thead>
+            <tbody>
+              <tr class='row'>
+                <td><div class='user'>foobar</div></td>
+                <td>12/12/20</td>
+                <td>5/5</td>
+                <td><div>Could listen on repeat for days! Good tune, good lyrics, good tempo.
+                A better song has never existed ever; in fact, people should probably
+                stop writing music now because this will never be topped.</div></td>
+              </tr>
+              <tr class='row'>
+                <td><div class='user'>fizzbuzz</div></td>
+                <td>12/11/20</td>
+                <td>3/5</td>
+                <td><div>It was okay.</div></td>
+              </tr>
+              <tr class='row'>
+                <td><div class='user'>madeupword</div></td>
+                <td>12/10/20</td>
+                <td>1/5</td>
+                <td><div>Would rather listen to nails on a chalkboard than ever go through that again.</div></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class='smallContainer'>
+            <!-- <label for='ratingPage' aria-label="Rating Page"></label> -->
+            <a href='/musicrater/demo/rate' id='ratingPage' name='ratingPage' aria-label='Rating Page' tabIndex='2'>Tell us what you think!</a>
+          </div>
         </div>
       </div>
     </div>

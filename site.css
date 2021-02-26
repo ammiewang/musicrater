@@ -141,7 +141,7 @@ iframe {
 .moreInfo.iframeContainer {
   width: 400px;
   /* width: min(400px, 110%); */
-  height: 300px;
+  min-height: 300px;
 }
 
 .moreInfo.about {

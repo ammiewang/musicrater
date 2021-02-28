@@ -1,9 +1,10 @@
 # Music Rater
 
 This is Ammie Wang's submission for Homework 1 for COMP333. This platform is not actually available,
-but this landing page was created as part of a homework exercise.
+but this landing page was created as part of a homework exercise. HTML/CSS for all pages was written from scratch by me (Ammie).
 
 ## Links
+- GitHub Repo: [https://github.com/ammiewang/musicrater/tree/gh-pages](https://github.com/ammiewang/musicrater/tree/gh-pages)
 - Landing Page: [https://ammiewang.github.io/musicrater](https://ammiewang.github.io/musicrater)
 - Rating Demo: [https://ammiewang.github.io/musicrater/demo/rate](https://ammiewang.github.io/musicrater/demo/rate)
 - Reviews Demo: [https://ammiewang.github.io/musicrater/demo/reviews](https://ammiewang.github.io/musicrater/demo/reviews)
@@ -19,7 +20,7 @@ This landing page is structured into 4 sections:
     - Rating Page: shows what it might look like when a user rates a song
     - Reviews Page: shows what the reviews page for a song might look like
     - THESE PAGES DO NOT WORK. THEY ARE SIMPLY HERE FOR DEMONSTRATION OF THE UI.
-- [Prices]((https://ammiewang.github.io/musicrater/#prices))
+- [Prices](https://ammiewang.github.io/musicrater/#prices)
   - Shows the 3 different price tiers and the features included for each
 
 ## Rating Page

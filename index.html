@@ -112,31 +112,33 @@
       </div>
     </section>
     <section id='demo' aria-label='demo'>
-      <div class='demo-cont container writing'>
-        <div id='demoDescription'>
-          <h2>Demo</h2>
-          <p>Take a look at what it's like to read and write song reviews on our app. Check out
-          the first link to preview how our users rate tracks, and go to the second link to
-          see what published reviews look like!</p>
-          <p class='disclaimer'>These are static pages which represent what the app's
-          UI might look like. They are not connected to any backend and any submitted reviews
-          will not be saved.</p>
-        </div>
-        <div class='moreInfo iframeContainer'>
-          <div class='demo-buttons'>
-            <button id='rate-button' class='demo-button' onclick="changeIframe(true)">Rate</button>
-            <button id='review-button' class='demo-button' onclick="changeIframe(false)">Review</button>
+      <div class='container writing'>
+        <div class='demo-cont desc'>
+          <div id='demoDescription'>
+            <h2>Demo</h2>
+            <p>Take a look at what it's like to read and write song reviews on our app. Check out
+            the first link to preview how our users rate tracks, and go to the second link to
+            see what published reviews look like!</p>
+            <p class='disclaimer'>These are static pages which represent what the app's
+            UI might look like. They are not connected to any backend and any submitted reviews
+            will not be saved.</p>
           </div>
-          <div id='rate-iframe' class='iframe-and-link'>
-            <iframe src='demo/rate/index.html' title='a demo of the page a user would go to to rate a certain song'></iframe>
-            <div class='link'>
-              <a href='/musicrater/demo/rate' id='ratingPage' name='ratingPage' aria-label='Rating Page' tabindex='5'>Rate Songs ➡</a>
+          <div class='moreInfo iframeContainer'>
+            <div class='demo-buttons'>
+              <button id='rate-button' class='demo-button' onclick="changeIframe(true)">Rate</button>
+              <button id='review-button' class='demo-button' onclick="changeIframe(false)">Review</button>
             </div>
-          </div>
-          <div id='review-iframe' class='iframe-and-link'>
-            <iframe src='demo/reviews/index.html' title='a demo of the page a user would go to to read reviews for a certain song'></iframe>
-            <div class='link'>
-              <a href='/musicrater/demo/reviews' id='reviewsPage' name='reviewsPage' aria-label='Reviews Page' tabindex='6'>Read Reviews ➡</a>
+            <div id='rate-iframe' class='iframe-and-link'>
+              <iframe src='demo/rate/index.html' title='a demo of the page a user would go to to rate a certain song'></iframe>
+              <div class='link'>
+                <a href='/musicrater/demo/rate' id='ratingPage' name='ratingPage' aria-label='Rating Page' tabindex='5'>Rate Songs ➡</a>
+              </div>
+            </div>
+            <div id='review-iframe' class='iframe-and-link'>
+              <iframe src='demo/reviews/index.html' title='a demo of the page a user would go to to read reviews for a certain song'></iframe>
+              <div class='link'>
+                <a href='/musicrater/demo/reviews' id='reviewsPage' name='reviewsPage' aria-label='Reviews Page' tabindex='6'>Read Reviews ➡</a>
+              </div>
             </div>
           </div>
         </div>

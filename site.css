@@ -154,8 +154,21 @@ span, p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  justify-content: center;
+}
+
+@media only screen and (min-width: 1176px) {
+  .demo-cont {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .demo-cont {
+    justify-content: center;
+  }
+  /* #demoDescription {
+    margin: 0px 25px 0px 25px;
+  } */
 }
 
 .moreInfo {
@@ -330,7 +343,6 @@ ul.description {
   /* padding-top: 50px;
   padding-bottom: 0px; */
   width: 400px;
-  margin: 0px 25px 0px 25px;
   /* margin: 0; */
 }
 
@@ -362,6 +374,7 @@ ul.description {
 
 #demo .disclaimer {
   padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 #prices {
